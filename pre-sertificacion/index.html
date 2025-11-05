@@ -9,7 +9,7 @@
 </head>
 <body>
     <header>
-        <h1> tu plataforma favorita de adopción de arboles</h1>
+        <h1> tu plataforma favorita de adopción de Árboles</h1>
     </header>
     <div class="barra_navegacion">
         <div class="titulo">
@@ -18,8 +18,8 @@
             <span class="color3">Árbol</span>
         </div>
         <div class="menu">
-            <button class="boton1">Adoptar</button>
-            <button class="boton2">Donar</button>
+            <button class="boton1">Ádoptar</button>
+            <button onclick="MostrarAlerta()" class="boton2">Donar</button>
         </div>
     </div>
   <!-------  selección de barra de navegación-->
@@ -28,10 +28,10 @@
         <span >Mostrando:</span>
         <span>Todos los Árboles</span>
     </div>
-    <select class="select   " name="tipo-arbol" title="Seleccione el arbol ">
-        <option value="">Arboles frutales </option>
-        <option value="">Arboles Ornamentales</option>
-        <option value="">Arbol de flor</option>
+    <select class="select" name="tipo-arbol" title="Seleccione el arbol ">
+        <option value="">Árboles frutales </option>
+        <option value="">Árboles Ornamentales</option>
+        <option value="">Árbol de flor</option>
     </select> <!------- fin selector de arboles -->
   </div>
   <main class="contenido-arboles">
@@ -42,16 +42,16 @@
                 <h2>Alomo</h2>
                 <p>Árbol caducifolio, de hojas anchas y con largos pecíolos.</p>
             </div>
-            <button class="boton-adoptar">Adoptar</button>
+            <button onclick="adoptar()" class="boton-adoptar">Adoptar</button>
         </div>
         <div class="cuadro-arbol">
             <img class="planta" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSq3FgD3JxN-Xu6wt3EecUnLzjXREJHTfeveA&s" height="100px" alt="">
                       <div>
                 <h2>Pino</h2>
-                <p>Árbol con tronco recto y cilíndrico, con amplia copa.</p>
+                <p>Árbol de familia de las abietáceas, de  tronco elevado, recto </p>
                 
             </div>
-            <button class="boton-adoptar">
+            <button onclick=" adoptar1()" class="boton-adoptar1">
                 Adoptar
             </button>
         </div>
@@ -62,17 +62,17 @@
 
             <div>
                 <h2>Fresno</h2>
-                <p>Arbol de la familia de las abitáceas, de troncos elevado, recto.</p>
+                <p>Árbol de la familia de las abitáceas, de troncos elevado, recto.</p>
             </div>
-            <button class="boton-adoptar">Adoptar</button>
+            <button class="boton-adoptar2" onclick="adoptar2()">Adoptar</button>
         </div>
         <div class="cuadro-arbol">
             <img class="planta" src="https://jardinjaponespunta.com/wp-content/uploads/2024/11/OIP-1.jpeg" height="100px" alt="" class="arbol">
             <div>
                 <h2>Jacaranda</h2>
-                <p>Arbol de la familia de las abitáceas, de troncos elevado, recto.</p>
+                <p>Árbol de copa extendida y redondeada y con flores.</p>
             </div>
-            <button class="boton-adoptar">Adoptar</button>
+            <button class="boton-adoptar3" onclick="adoptar3()">Adoptar</button>
         </div>
     </div>
     </main>

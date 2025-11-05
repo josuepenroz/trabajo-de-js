@@ -40,6 +40,9 @@ header{
     font-weight: bold;
 
 }
+.adoptado{
+    background-color: #274E13;
+}
 .menu {
     display: flex;
     gap: 20px;
@@ -89,22 +92,26 @@ header{
     float: right;
 }
 
-.boton-adoptar {
+.boton-adoptar, .boton-adoptar1 , .boton-adoptar2 , .boton-adoptar3{
     height: 40px;
     padding: 10px 20px;
     font-weight: bold;
     box-shadow: 2px 2px 0px 0px black;
     cursor: pointer;
+    background-color: #B6D7A8;
+}
+.adoptado {
+    background-color: #274E13;
 }
 .cuadro-arbol {
-    width: 500px;
-    height: 250px;
+    width: 430px;
+    height: 150px;
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 20px;
     padding: 20px;
-    border-radius: 5px;
+    border-radius: 20px;
     background-color: #e4e4e4;
     gap: 20px;  
 }
@@ -113,9 +120,7 @@ header{
     margin-left: 150px;
     
 }
-.boton-adoptar {
-    background-color: #B6D7A8;
-}
+
 .planta {
     width: 200px;
     height: 150px;
